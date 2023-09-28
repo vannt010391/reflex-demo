@@ -3,9 +3,8 @@ import os
 import openai
 import reflex as rx
 
-# openai.api_key = os.environ["OPENAI_API_KEY"]
+openai.api_key = os.environ["OPENAI_API_KEY"]
 # openai.api_base = os.getenv("OPENAI_API_BASE","https://api.openai.com/v1")
-openai.api_key = "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"
 openai.api_base = "https://api.openai.com/v1"
 
 
