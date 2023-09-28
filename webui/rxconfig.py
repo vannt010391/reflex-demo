@@ -7,7 +7,7 @@ class WebuiConfig(rx.Config):
 
 config = WebuiConfig(
     app_name="webui",
-    deploy_url="https://reflex-chat-m7fa.onrender.com",
+    api_url="https://reflex-chat-m7fa.onrender.com:8000",
     # env=rx.Env.DEV,
     # frontend_packages=[
     #     "react-loading-icons",
